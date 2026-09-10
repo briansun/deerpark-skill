@@ -64,9 +64,11 @@ Agent 的回答來自線上經文，不是記憶；每個結論都附可點的�
 
 ## 安裝
 
-打開你的 agent（Claude Code、Codex、Cursor……），對它說：
+打開你的 agent（Claude Code、Codex、Cursor……），把這句話貼給它：
 
-> 請幫我安裝 skill：https://github.com/briansun/deerpark-skill
+```
+請幫我安裝 skill：https://github.com/briansun/deerpark-skill
+```
 
 就這樣。agent 會自己把 repo 放到它的 skills 目錄。裝完問一個佛經問題，或輸入 `/deerpark`，看它是否開始打 deerpark.app 的 URL。
 
