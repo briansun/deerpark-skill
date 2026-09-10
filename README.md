@@ -27,7 +27,9 @@
 
 ---
 
-> **English**: An [Agent Skill](https://agentskills.io) that teaches Claude Code, Codex and other agents to search, read and cite the Chinese Buddhist Canon (CBETA) through the public URLs of deerpark.app — 4,303 works, 17,862 fascicles, ~190M characters of Classical Chinese, plus full-text search, Buddhist dictionaries, AI summaries, stories and highlighted passages. To install, tell your agent: *"Install the skill from https://github.com/briansun/deerpark-skill"* (or run `npx skills add briansun/deerpark-skill -g`).
+> **English**: An [Agent Skill](https://agentskills.io) that teaches Claude Code, Codex and other agents to search, read and cite the Chinese Buddhist Canon (CBETA) through the public URLs of deerpark.app — 4,303 works, 17,862 fascicles, ~190M characters of Classical Chinese, plus full-text search, Buddhist dictionaries, AI summaries, stories and highlighted passages. Every essay on the [deerpark.app blog](https://deerpark.app/blog) was written with this skill. To install, tell your agent: *"Install the skill from https://github.com/briansun/deerpark-skill"* (or run `npx skills add briansun/deerpark-skill -g`).
+
+> **實戰證明**：[deerpark.app 專欄](https://deerpark.app/blog)上的每一篇文章（讀經筆記、專題研究、祖師傳記）都是用這個 skill 寫出來的——查經、找出處、引原文，全部走這些 URL。
 
 ## 看它怎麼答
 
