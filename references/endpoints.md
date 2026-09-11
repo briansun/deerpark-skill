@@ -71,6 +71,7 @@ Base URL：`https://deerpark.app`。線上文件：https://deerpark.app/apidocs
   "creators": [
     { "id": "A001583", "name": "鳩摩羅什", "dynasty": "姚秦", "workCount": 54, "url": "https://deerpark.app/creator/%E9%B3%A9%E6%91%A9%E7%BE%85%E4%BB%80" }
   ],
+  "source": { "name": "CBETA", "version": "CBETA 2026.R2", "juans": [ { "juan": 1, "updated": "2026-02-09" } ] },
   "summary": "這部經記錄了佛在舍衛國祇樹給孤獨園與弟子須菩提的一場對話……",
   "juanSummaries": [ { "juan": 1, "summary": "..." } ],
   "urls": {
@@ -87,6 +88,7 @@ Base URL：`https://deerpark.app`。線上文件：https://deerpark.app/apidocs
 }
 ```
 - `summary` / `juanSummaries` 是 deerpark 的 AI 導讀，可能為 `null` / `[]`。
+- `source` 是經文的來源版本：`version` 為本站所依據的 CBETA 發行版，`juans[].updated` 為該卷在 CBETA 的最後校訂日期。引用經文時可一併註明版本。
 - 未收錄全文的作品（乾隆藏 L、印順著作 Y 等）回 `200` 且 `hosted: false`：
 
 ```json
